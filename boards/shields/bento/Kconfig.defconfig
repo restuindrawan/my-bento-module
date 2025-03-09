@@ -1,0 +1,7 @@
+if SHIELD_BENTO
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "bento"
+
+endif
