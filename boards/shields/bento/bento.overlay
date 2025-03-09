@@ -20,4 +20,18 @@
     vbatt: vbatt {
         compatible = "zmk,battery-nrf-vddh";
     };
+
+    encoder: encoder {
+        compatible = "alps,ec11";
+        a-gpios = <&gpio0 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+        b-gpios = <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+        steps = <80>;
+        status = "okay";
+    };
+
+    sensors: sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&encoder>;
+        triggers-per-rotation = <20>;
+    };
 };
