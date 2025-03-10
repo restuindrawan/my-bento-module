@@ -25,6 +25,6 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP>;
-        }
+        };
     };
  };
