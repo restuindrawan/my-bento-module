@@ -4,7 +4,7 @@
         zmk,battery = &vbatt;
     };
 
-    kscan0: kscan {
+    kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-direct", "zmk,gpio-key-wakeup-trigger";
         wakeup-source;
         input-gpios
