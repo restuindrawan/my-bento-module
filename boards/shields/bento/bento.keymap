@@ -11,7 +11,7 @@
             // |     Z     |     M     |    Mute   |
             // |     A     |     B     |    FN     |
             bindings = <
-                &kp C_AL_FILES  &kp C_PP    &kp C_MUTE
+                &kp C_AL_MUSIC  &kp C_PP    &kp C_MUTE
                 &kp C_PREV      &kp C_NEXT  &mo 1
             >;
 
