@@ -33,6 +33,8 @@
             compatible = "zmk,behavior-macro";
             label = "Cmd + Space";
             #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <40>;
             bindings = <
                 &macro_press &kp LGUI
                 &macro_tap &kp SPACE
